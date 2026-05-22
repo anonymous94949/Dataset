@@ -1,8 +1,21 @@
-# Supplementary Materials
+# Dataset  
 
 ---
 
-## A. Dataset
+## A. Dataset Overview
+
+We release a street-view-based walkability dataset constructed from Google Street View (GSV) imagery collected in Seoul, South Korea. The released dataset includes urban expert-validated walkability labels to support research on urban perception and walkability prediction.
+
+### Released Dataset Components
+
+| Component | Description |
+|---|---|
+| Street-View Images | Google Street View static images collected in Seoul |
+| Walkability Labels | Urban expert-validated walkability scores |
+| Geographic Coverage | Seoul, South Korea |
+| Total Images | 3,410 |
+| Dataset Access | [link](https://drive.google.com/file/d/1gABWyi01Ci0p559x-fGU6amQNLLqaOrE/view?usp=sharing)  |
+| Metadata Access | [link](https://drive.google.com/drive/folders/1jX8LKIZ_0Lh-JEQlu2A8MyXcFhro0R4b?usp=sharing) |
 
 ### A.1 Demographic Distribution of Survey Participants
 
@@ -114,27 +127,3 @@ Following prior works highlighting that pedestrian experience depends on micro-s
 | 7 | $5 \leq \text{score} < 7$ |
 
 *Table S.3: Urban Expert Annotation Guideline and Scoring Criteria*
-
----
-
-## B. Additional Analysis of Graph Construction Mechanism
-
-Figure S.5 shows additional comparisons of edge connections between ViG and our method.
-
-<p align="center">
-  <img src="figs/edge_vis.png" width="80%" alt="Visualization of edge connections in ViG and our method"/>
-</p>
-
-*Figure S.5: Visualization of edge connections in ViG and our method*
-
----
-
-## C. Example of New Cities Dataset
-
-<p align="center">
-  <img src="figs/new_eg.png" width="80%" alt="Example of New Cities Dataset"/>
-</p>
-
-<p align="center">
-  <em>Figure S.6: Examples from the new-city evaluation dataset.</em>
-</p>
