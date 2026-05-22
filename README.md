@@ -2,7 +2,7 @@
 
 ---
 
-## 1 Dataset Overview
+## 1. Dataset Overview
 
 We release a street-view-based walkability dataset constructed from Google Street View (GSV) imagery collected in Seoul, South Korea. The released dataset includes urban expert-validated walkability labels to support research on urban perception and walkability prediction.
 
@@ -17,7 +17,7 @@ We release a street-view-based walkability dataset constructed from Google Stree
 | Dataset Access | [link](https://drive.google.com/file/d/1gABWyi01Ci0p559x-fGU6amQNLLqaOrE/view?usp=sharing)  |
 | Metadata Access | [link](https://drive.google.com/drive/folders/1jX8LKIZ_0Lh-JEQlu2A8MyXcFhro0R4b?usp=sharing) |
 
-## 2 Dataset Construction
+## 2. Dataset Construction
 The dataset construction pipeline consists of three stages: (1) GSV image collection and preprocessing, (2) filtering non-walkable areas, and (3) urban expert validation for label consistency.
 
 ### Survey-based Walkability Collection
