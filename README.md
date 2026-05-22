@@ -33,7 +33,17 @@
 
 ---
 
-### A.2 GSV Image Preprocessing
+### A.2 Dataset Statistics
+
+| Label  | 1   | 2   | 3   | 4   | Total |
+|--------|-----|-----|-----|-----|-------|
+| Images | 815 | 934 | 954 | 707 | 3410  |
+
+*Table S.2: Class Distribution of the Final Dataset*
+
+---
+
+### A.3 GSV Image Preprocessing
 
 <p align="center">
   <img src="figs/dataset.png" width="100%" alt="Comparison of panoramic image and static image"/>
@@ -43,7 +53,7 @@
 
 ---
 
-### A.3 Spatial Distribution of GSV Points
+### A.4 Spatial Distribution of GSV Points
 
 Figure S.2 illustrates the spatial distribution of GSV points along roads and sidewalks. Orange lines represent sidewalks for pedestrians, while grey lines denote the vehicular roads where GSV imagery was originally captured.
 
@@ -55,7 +65,7 @@ Figure S.2 illustrates the spatial distribution of GSV points along roads and si
 
 ---
 
-### A.4 Urban Expert Annotation
+### A.5 Urban Expert Annotation
 
 Figure S.4(a) shows a case where an area receives a high walkability score, while the corresponding GSV image does not visually convey that level of walkability. Conversely, Figure S.4(b) shows the opposite case — an area with a low walkability survey score whose GSV image appears highly walkable.
 
@@ -103,7 +113,7 @@ Following prior works highlighting that pedestrian experience depends on micro-s
 | 6 | $3 \leq \text{score} < 5$ |
 | 7 | $5 \leq \text{score} < 7$ |
 
-*Table S.2: Urban Expert Annotation Guideline and Scoring Criteria*
+*Table S.3: Urban Expert Annotation Guideline and Scoring Criteria*
 
 ---
 
@@ -116,3 +126,15 @@ Figure S.5 shows additional comparisons of edge connections between ViG and our 
 </p>
 
 *Figure S.5: Visualization of edge connections in ViG and our method*
+
+---
+
+## C. Example of New Cities Dataset
+
+<p align="center">
+  <img src="figs/new_eg.png" width="80%" alt="Example of New Cities Dataset"/>
+</p>
+
+<p align="center">
+  <em>Figure S.6: Examples from the new-city evaluation dataset.</em>
+</p>
