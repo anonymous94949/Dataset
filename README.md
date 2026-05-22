@@ -61,7 +61,6 @@ We collect street-view imagery using Google Street View (GSV). Since panoramic i
 
 ### Filtering Non-Walkable Areas
 Because GSV images are originally collected along vehicular roads, not all locations correspond to pedestrian-accessible environments. To ensure pedestrian relevance, we retain only GSV points spatially aligned with sidewalks and walkable areas.
-
 Figure 2 illustrates the spatial distribution of GSV points along roads and sidewalks.
 
 <p align="center">
@@ -74,7 +73,6 @@ Figure 2 illustrates the spatial distribution of GSV points along roads and side
 
 ### Urban Expert Validation
 A conceptual mismatch may exist between area-level survey scores and spot-level GSV imagery. To validate label consistency, we introduce an urban expert annotation protocol based on micro-scale pedestrian visual attributes. Figure 4(a) shows a case where an area receives a high walkability score, while the corresponding GSV image does not visually convey that level of walkability. Conversely, Figure 4(b) shows the opposite case — an area with a low walkability survey score whose GSV image appears highly walkable.
-
 Following prior works highlighting that pedestrian experience depends on micro-scale attributes (e.g., sidewalk presence, maintenance, street aesthetics), each image was evaluated along two main criteria:
 
 - **Negative visual elements**: presence of damaged or unpaved roads, visible cracks or aesthetically disruptive features such as trash, which correspond to lower walkability.
